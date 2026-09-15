@@ -1,0 +1,11 @@
+# Local/runtime configuration
+/inc/db.inc.php
+
+# Local temporary and import files
+/tmp/
+*.log
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/

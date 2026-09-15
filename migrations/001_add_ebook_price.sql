@@ -1,0 +1,3 @@
+ALTER TABLE books
+    ADD COLUMN IF NOT EXISTS ebook_price DECIMAL(10,2) NOT NULL DEFAULT 0.00
+    AFTER selling_price;

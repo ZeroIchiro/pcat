@@ -1,0 +1,5 @@
+Options -Indexes
+
+<FilesMatch "\.(sql|log|ini|env|bak|backup|dist|swp)$">
+    Require all denied
+</FilesMatch>
